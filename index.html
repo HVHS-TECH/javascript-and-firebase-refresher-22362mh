@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 
-<script src="/__/firebase/8.10.1/firebase-app.js"></script>
-<script src="/__/firebase/8.10.1/firebase-database.js"></script>
-<script src="/__/firebase/8.10.1/firebase.js"></script>
-<script src="/__/firebase/8.10.1/firebase-installations.js"></script>
-<script src="/__/firebase/8.10.1/firebase-functions.js"></script>
-
 <head>
     <title>JavaScript and Firebase refresher</title>
+
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+
 </head>
 
 <body>
@@ -26,6 +25,9 @@
     <button onclick='welcomeMessage.innerHTML=input.innerHTML'>Button</button>
 
     <button onclick='write()'>WRITE</button>
+
+    <button onclick="fb_initialise()">initialise</button>
+    <button onclick="fb_authenticate()">authenticate</button>
 
     <script src="script.js"></script>
 
@@ -59,7 +61,12 @@
         <li>You can filter to only display messages from a specific user</li>
     </ul>
     <p>You learned all this last year. You just need to remember how!<br>
-        You can Google it, ask a friend, copy from last year's work, even look at <a href="https://sites.google.com/hvhs.school.nz/technology/COMP/12COMP/12-databases/br-firebase-skills">last year's notes</a>, works for you.<br>
+        You can Google it, ask a friend, copy from last year's work, even look at <a
+            href="https://sites.google.com/hvhs.school.nz/technology/COMP/12COMP/12-databases/br-firebase-skills">last
+            year's notes</a>, works for you.<br>
         By the end of the week you will have Firebase going.</p>
+
+    <script type="module" src="./main.mjs"></script>
 </body>
+
 </html>
