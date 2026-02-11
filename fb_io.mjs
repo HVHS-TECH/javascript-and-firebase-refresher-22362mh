@@ -77,7 +77,7 @@ function fb_signOut(){
 
 function write(){
     var whereToWriteTo = '/';
-    var message = 'Hello!';
+    var message = {Name: 'Mio'};
     const dbReference= ref(fb_gamedb, whereToWriteTo);
     set(dbReference, message).then(() => {
         console.log("Write was a success!");
