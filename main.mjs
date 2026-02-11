@@ -17,3 +17,15 @@ import { fb_initialise }
 import { fb_authenticate }
     from './fb_io.mjs';
     window.fb_authenticate = fb_authenticate;
+
+import { ASC }
+    from './fb_io.mjs';
+    window.ASC = ASC;
+
+import { fb_signOut }
+    from './fb_io.mjs';
+    window.fb_signOut = fb_signOut;
+
+import { write }
+    from './fb_io.mjs';
+    window.write = write;
