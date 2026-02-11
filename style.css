@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(252, 214, 250);
+    font-family: Verdana;
+}
+
+h1{
+    color: rgb(32, 76, 173);
+}
+
+h2{
+    color: rgb(42, 100, 224);
+}
+
+h4{
+    color: rgb(81, 135, 253)
+}
+
+p{
+    color: rgb(8, 30, 78);
+}
+
+button{
+    color: rgb(8, 144, 179);
+    background-color: rgb(190, 229, 252);
+    padding: 10px;
+    font-family: Franklin Gothic Medium;
+}
